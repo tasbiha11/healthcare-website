@@ -4,7 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import './Nav.css';
-import logo from '../../Assets/logo.png'
+import logo from '../../Assets/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const Navbars = () => {
     return (
@@ -34,8 +36,10 @@ const Navbars = () => {
                             <NavDropdown.Item href="#action/3.1">Blog Details</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#home">Contact Us</Nav.Link>
-                        <Nav.Link href="#home">search</Nav.Link>
-                        <Nav.Link href="#home">icon + 01780311229</Nav.Link>
+                        <Nav.Link href="#home"> <FontAwesomeIcon icon={faSearch} /></Nav.Link>
+                        <Nav.Link href="#home">
+                            <FontAwesomeIcon icon={faPhone} className="phone" />
+                            (+01) 44885693213</Nav.Link>
                         <Nav.Link href="#home"><button>Contact us <span>&gt;</span> </button></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
