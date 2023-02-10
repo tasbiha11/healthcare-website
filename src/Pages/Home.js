@@ -1,5 +1,5 @@
 import React from 'react';
-import header_doctor from '../../Assets/header_doctor.png';
+import header_doctor from '../Assets/header_doctor.png';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquare } from '@fortawesome/free-solid-svg-icons'

@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='row'>
                 <div className='col-md-3 col-sm-6'>
                     <img src={logo} alt="" className='footerlogo' />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, asperiores.</p>
+                    <p>We are here to serve the humanity. Peoples life are our outmost priority. We serve with love and care.</p>
                     <div className="footer-contact">
                         <div className="footer-icon">
                             <FontAwesomeIcon icon={faPhone} />
@@ -52,8 +52,8 @@ const Footer = () => {
                         <button type="submit">Subscribe Now</button>
                     </form>
                     <ul className='social'>
-                        <li> <a href="#"></a><AiFillFacebook /></li>
-                        <li> <a href="#"></a><AiFillTwitterSquare /></li>
+                        <li> <a href="#"><AiFillFacebook /></a></li>
+                        <li> <a href="#"><AiFillTwitterSquare /></a></li>
                         <li> <a href="#"><AiFillLinkedin /></a></li>
                         <li> <a href="#"><AiFillYoutube /></a></li>
                     </ul>

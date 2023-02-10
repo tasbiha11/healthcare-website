@@ -29,10 +29,7 @@ nav .navbar-nav .active {
 }
 
 nav .navbar-nav svg.phone {
-    /* text-align: center;
-    background-color: #f9f9f1; */
     margin-right: 8px;
-    /* background-color: #444; */
 }
 
 nav .navbar-nav button {
@@ -59,7 +56,7 @@ nav .navbar-nav button span {
     height: 40px;
     text-align: center;
     line-height: 40px;
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 nav .navbar-nav button:hover {
