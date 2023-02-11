@@ -73,6 +73,9 @@ form button:hover {
 
 .side {
     background: url("../Assets/doctors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -83,10 +86,49 @@ form button:hover {
     -o-border-radius: 4px !important;
     padding: 15px;
     margin-top: 10px;
+    color: #fff;
 }
 
 .side .overlay {
     background-color: #565acf;
-    opacity: .9;
-    padding: 15px;
+    border-radius: 8px;
+    opacity: .7;
+    padding: 20px 15px;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+}
+
+.side .overlay h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.side .overlay li {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.side .overlay ul li {
+    margin-right: 15px;
+}
+
+.side .overlay hr {
+    width: 70%;
+    color: #fff;
+    background-color: #fff;
+}
+
+.side .overlay p {
+    color: #fff;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.side .overlay ul {
+    padding: 0px;
 }

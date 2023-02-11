@@ -1,8 +1,9 @@
 import React from 'react';
 import header_doctor from '../Assets/header_doctor.png';
 import './Home.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquare } from '@fortawesome/free-solid-svg-icons'
+import Blogs from '../components/Blogs/Blogs';
+import Featured from '../components/Featured/Featured';
+
 
 const Home = () => {
     return (
@@ -18,11 +19,13 @@ const Home = () => {
                     <div className='col-md-4 col-lg-4'>
                         <div className="header-box">
                             <img src={header_doctor} alt="doctor" />
-                            <FontAwesomeIcon icon={faSquare} />
+
                         </div>
                     </div>
                 </div>
             </div>
+            <Blogs />
+            <Featured />
         </header>
     )
 }
